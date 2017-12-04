@@ -1,0 +1,1 @@
+Squarespace base template with all the fixins
