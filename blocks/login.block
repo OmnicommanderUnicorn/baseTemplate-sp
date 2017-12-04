@@ -1,0 +1,11 @@
+<div class="login-head">
+  <span>Online Banking Login</span>
+</div>
+<div class="login desktop">
+  <form method="post" action="#" id="login" name="login" autocomplete="off">
+    <input type="hidden" name="pin" value="">
+    <input type="text" name="id" id="inputbox" autocomplete="off" value="">
+    <input type="submit" name="Sign In" class="button" id="loginbutton" value="Login">
+    <a class="forgot" href="#" target="_blank">Sign Up</a>
+  </form>
+</div>

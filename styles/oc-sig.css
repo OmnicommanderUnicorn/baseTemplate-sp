@@ -1,0 +1,19 @@
+.oc-sig-header
+{
+   text-align:center !important; 
+   color:#ffffff !important;
+   font-family:"ff-good-headline-web-pro-condensed" !important;
+   font-size:22px !important;  
+}
+.oc-sig-header h3
+{
+
+}
+.oc-sig-header a
+{
+   color:#672A92 !important;
+}
+.oc-sig-header a:hover
+{
+   color:#ffffff !important;
+}
