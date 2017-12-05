@@ -1,32 +1,101 @@
-.homepage .login-form-holder {
-  //display: none;
-}
+
 
 .login-form-holder {
   position: absolute !important;
-  width: 240px;
-  padding: 15px;
-  background-color: rgba(6, 119, 107, 0.8);
-  right: 20px;
-  border-radius: 3px;
+  width: 300px;
+  padding: 10px;
+  background-color: rgba(255,255,255, .8);
+  left: 40px;
+  top: 100px;
+  border-radius: 0 0 3px 3px;
   box-sizing: border-box;
   z-index: 999;
-  .sqs-block {
-    padding-bottom: 0 !important;
+}
+.login-head {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: "futura-pt";
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: .1em;
+  font-weight: 600;
+}
+input#inputbox{
+  width: 100%;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: .8em;
+}
+.button {
+  font-size: 16px !important;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #333;
+  background-color: #fff;
+  border-color: #fff;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 3px;
+  font-family: 'futura-pt';
+  display: inline-block;
+  width:100%;
+  margin-bottom:10px;
+}
+
+/*Hide mobile nav  */
+.login-headMobile
+{
+  display:none;
+}
+.loginMobile
+{
+  display:none;
+}
+@media screen and (max-width:  640px) {
+  /*hide desktop login form */
+  .login-head
+  {
+    display:none;
   }
-  .login-head {
-    font-size: .8em;
-    color: #fff;
+  .loginDesktop
+  {
+    display:none;
+  }
+  .login-form-holder {
+    position: inherit !important;
+    width: 100%;
+    padding: 15px;  
+    border-radius: 0px;
+    box-sizing: border-box;
+    z-index: 999;
+    top:0px !important;
+    left:0px !important;
+  }
+  .login-headMobile
+  {
+    display:block;
+    font-size: 20px;
+    color: #333;
     margin-bottom: 10px;
-    font-family: ff-good-headline-web-pro-condensed;
+    font-family: "futura-pt";
     text-transform: uppercase;
     line-height: 1;
     letter-spacing: .1em;
     font-weight: 600;
   }
+  .loginMobile
+  {
+    display:block;
+  }
   input#inputbox{
     width: 100%;
-    border: none;
+    border: 1px solid #333333;
     border-radius: 3px;
     margin-bottom: 10px;
     font-family: sans-serif;
@@ -35,13 +104,13 @@
     font-size: .8em;
   }
   .button {
-    font-size: 16px;
+    font-size: 16px !important;
     font-weight: 600;
     font-style: normal;
     text-transform: uppercase;
-    color: #06776B;
-    background-color: #fff;
-    border-color: #fff;
+    color: #333333;
+    background-color: #cccccc;
+    border-color: #333333;
     border: none;
     padding: 5px 20px;
     border-radius: 3px;
@@ -50,88 +119,9 @@
     width:100%;
     margin-bottom:10px;
   }
-  a.forgot {
-    color: #fff;
-    font-size: .9em;
-    letter-spacing: 1px;
-    line-height: 1;
-    margin-top: 5px;
-    margin-left: 10px;
-    padding: 0;
-    display: inline-block;
-    font-family: 'futura-pt';
-    letter-spacing: 0;
-  }
-}
-.login.mobile {
-  display: none;
-}
-//Homepage Login
-
-.home-login {
-    padding: 20px;
-    background-color: rgba(255,255,255,.9);
-    border-radius: 10px;
-    max-width: 300px;
-    margin-left: auto;
-    h2 {
-      margin-bottom: 15px;
-      text-align: left;
-    }
-    input {
-      font-family: 'futura-pt';
-      width: 100%;
-      box-sizing: border-box;
-      padding: 4px 8px;
-      color: #000;
-    }
-    .button {
-      display: inline-block;
-      margin-top: 15px;
-      background-color: #06776B;
-      border: none;
-      padding: 5px 20px;
-      font-size: .8em;
-      border-radius: 3px;
-      font-weight: 600;
-      width: auto;
-      color: #fff;
-      width:50%;
-    }
-    a.signup {
-    display: inline-block;
-    font-family: 'futura-pt';
-    color: #06776B;
-    margin-left: 10px;
-    font-size: .9em;
-  }
+   
 }
 
-a.banner-button {
-    background-color: rgba(255, 255, 255, 0.91);
-    color: #06776B;
-    min-width: 240px;
-    display: inline-block;
-    text-align: center;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    font-family: 'futura-pt';
-    border-radius: 4px;
-}
 
-@media screen and (max-width:  640px) {
-  .Header--top {
-    display: block;
-  }
-  .home-login {
-    margin: 0 auto;
-  }
-  section#introduction {
-    text-align: center;
-  }
-  .sqs-layout .sqs-row .sqs-block.sqs-block-code{
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-  }
-}
+
+
