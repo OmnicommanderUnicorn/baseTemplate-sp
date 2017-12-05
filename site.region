@@ -6,6 +6,7 @@
 
     {squarespace-headers}
     <squarespace:script src = "jquery-3.2.1.min.js" combo = "false">
+    <squarespace:script src = "materialize.js" combo = "false">
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
     <squarespace:script src = "oc-customUtilities.js" combo = "true">
   </head>
