@@ -5,25 +5,30 @@
   width: 300px;
   padding: 10px;
   background-color: rgba(255,255,255, .8);
-  left: 40px;
-  top: 100px;
-  border-radius: 0 0 3px 3px;
+  left: 120px;
+  top: 160px;
+  border-radius: 5px;
   box-sizing: border-box;
   z-index: 999;
 }
 .login-head {
   font-size: 20px;
-  color: #333;
+  color: #333333;
   margin-bottom: 10px;
-  font-family: "futura-pt";
   text-transform: uppercase;
   line-height: 1;
   letter-spacing: .1em;
   font-weight: 600;
 }
+.login-head h2{
+  
+  color: #333333;
+  
+}
 input#inputbox{
   width: 100%;
-  border: 1px solid #333333;
+  border: 1px solid #000000;
+  background-color:#ffffff;
   border-radius: 3px;
   margin-bottom: 10px;
   font-family: sans-serif;
@@ -36,15 +41,14 @@ input#inputbox{
   font-weight: 600;
   font-style: normal;
   text-transform: uppercase;
-  color: #333;
+  color: #000000;
   background-color: #fff;
-  border-color: #fff;
-  border: none;
+  border:1px solid #000000;
   padding: 5px 20px;
   border-radius: 3px;
-  font-family: 'futura-pt';
+
   display: inline-block;
-  width:100%;
+  width:45%;
   margin-bottom:10px;
 }
 
@@ -57,7 +61,7 @@ input#inputbox{
 {
   display:none;
 }
-@media screen and (max-width:  640px) {
+@media screen and (max-width:  790px) {
   /*hide desktop login form */
   .login-head
   {
@@ -81,9 +85,9 @@ input#inputbox{
   {
     display:block;
     font-size: 20px;
-    color: #333;
+    color: #000000;
     margin-bottom: 10px;
-    font-family: "futura-pt";
+
     text-transform: uppercase;
     line-height: 1;
     letter-spacing: .1em;
@@ -95,7 +99,7 @@ input#inputbox{
   }
   input#inputbox{
     width: 100%;
-    border: 1px solid #333333;
+    border: 1px solid #000000;
     border-radius: 3px;
     margin-bottom: 10px;
     font-family: sans-serif;
@@ -108,13 +112,13 @@ input#inputbox{
     font-weight: 600;
     font-style: normal;
     text-transform: uppercase;
-    color: #333333;
-    background-color: #cccccc;
-    border-color: #333333;
-    border: none;
+    color: #000000;
+    background-color: #fff;
+    border:1px solid #000000;
+    
     padding: 5px 20px;
     border-radius: 3px;
-    font-family: 'futura-pt';
+
     display: inline-block;
     width:100%;
     margin-bottom:10px;
