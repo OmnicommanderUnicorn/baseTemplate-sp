@@ -1,3 +1,4 @@
+/* keeps all words from breaking/hyphenating throughout the site*/
 p, h1, h2 {
     -webkit-hyphens: manual !important;
        -moz-hyphens: manual !important;
@@ -5,7 +6,7 @@ p, h1, h2 {
             hyphens: manual !important;
   }
 
-
+/* Hides the login form on the search pages */
 .hideLoginForm
 {
     display: none !important;

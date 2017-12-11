@@ -120,9 +120,7 @@
             </div>
           </div>
         </header>
-        <div class="login-form-holder" >
-          {@|apply login.block}
-        </div>
+       
         <div class="Content-outer">
           {.if collection}{.if item}{.or}{.equal? collection.typeName "index"}{.or}
             {.equal? collection.typeName "page"}

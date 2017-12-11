@@ -3,7 +3,7 @@
   <div class="Footer-inner clear">
 
     <squarespace:block-field id="footerBlocksTop" class="Footer-blocks Footer-blocks--top sqs-alternate-block-style-container" columns="12" label="Footer Top Blocks" />
-
+<squarespace:navigation navigationId="footerMainNavigation" template="footer-nav" />
     <div class="Footer-middle">
       <div class="Footer-business">
 
@@ -38,15 +38,21 @@
             </div>
           {.end}
         {.end}
-
+      <div class="socialMediaHolder Footer">
+          {@|apply socialMedia.block}
       </div>
-
+      <div class="Footer">
+          {@|apply ncua_footer.block}
+      </div>
+      </div>
+       
       <squarespace:block-field id="footerBlocksMiddle" class="Footer-blocks Footer-blocks--middle sqs-alternate-block-style-container" columns="12" label="Footer Middle Blocks" />
-
-      <squarespace:navigation navigationId="footerMainNavigation" template="footer-nav" />
+      
+     
     </div>
 
     <squarespace:block-field id="footerBlocksBottom" class="Footer-blocks Footer-blocks--bottom sqs-alternate-block-style-container" columns="12" label="Footer Bottom Blocks" />
+     
       <div class="oc-sig-holder Footer">
             {@|apply oc-sig.block}
       </div>
