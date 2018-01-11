@@ -1,3 +1,4 @@
 <div class = "ncuaFooter">
-    <img src = "../assets/NCUA.png">
+    <a href = "http://ncua.gov/"><img src = "../assets/NCUA+Logo.png"></a>
+    <a href = "http://hud.gov/"><img src = "../assets/Equal+Housing+Lender+Logo.png"></a>
 </div>

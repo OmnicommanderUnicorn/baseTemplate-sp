@@ -2,12 +2,12 @@
 
 .login-form-holder {
   position: absolute !important;
-  width: 300px;
+  width: 320px;
   padding: 10px;
-  background-color: rgba(255,255,255, .8);
-  left: 120px;
-  top: 160px;
-  border-radius: 5px;
+  background-color: rgba(255,255,255, .9);
+  right: 180px;
+  top: 0px;
+  border-radius: 0 0 5px 5px;
   box-sizing: border-box;
   z-index: 999;
 }
@@ -19,11 +19,19 @@
   line-height: 1;
   letter-spacing: .1em;
   font-weight: 600;
+  text-align:center;
 }
 .login-head h2{
-  
-  color: #333333;
-  
+  font-size:25px;
+  color: #333333; 
+  padding:10px;
+  text-align:center;
+}
+.loginDesktop h2{
+  font-size:24px;
+  color: #333333;  
+  margin-top:5px;
+  margin-bottom:5px;
 }
 input#inputbox{
   width: 100%;
@@ -41,17 +49,24 @@ input#inputbox{
   font-weight: 600;
   font-style: normal;
   text-transform: uppercase;
-  color: #000000;
-  background-color: #fff;
+  color: #444444;
+  background-color: #ffffff;
   border:1px solid #000000;
-  padding: 5px 20px;
+  padding: 10px 20px;
+  margin-top:5px;
+  margin-bottom:5px;
   border-radius: 3px;
-
+  width: 49%;
   display: inline-block;
-  width:45%;
-  margin-bottom:10px;
+  line-height:1.2em !important;
+  text-align:center;
 }
-
+.exCard
+{
+  max-height:20px !important;
+  background-color:#ffffff !important;
+  background: url(assets/excard2.png)no-repeat;
+}
 /*Hide mobile nav  */
 .login-headMobile
 {
@@ -62,6 +77,11 @@ input#inputbox{
   display:none;
 }
 @media screen and (max-width:  790px) {
+  /*Pushes main image down for mobile*/
+  #introduction-1
+  {
+    padding-top:140px;
+  }
   /*hide desktop login form */
   .login-head
   {
@@ -71,10 +91,19 @@ input#inputbox{
   {
     display:none;
   }
+  .collapsible-body
+  {
+    margin:0px !important;
+  }
+  .collapsible-body
+  {
+    padding:2px !important;
+    background-color:#ffffff;
+  }
   .login-form-holder {
     position: inherit !important;
     width: 100%;
-    padding: 15px;  
+    padding: 2px;  
     border-radius: 0px;
     box-sizing: border-box;
     z-index: 999;
@@ -87,11 +116,15 @@ input#inputbox{
     font-size: 20px;
     color: #000000;
     margin-bottom: 10px;
-
+    text-align:center;
     text-transform: uppercase;
     line-height: 1;
     letter-spacing: .1em;
     font-weight: 600;
+  }
+  .login-headMobile h3
+  {
+    text-align:center;
   }
   .loginMobile
   {
@@ -108,13 +141,14 @@ input#inputbox{
     font-size: .8em;
   }
   .button {
-    font-size: 16px !important;
+    width: 100%;
+    font-size: 12px !important;
     font-weight: 600;
     font-style: normal;
     text-transform: uppercase;
-    color: #000000;
+    color: #888888;
     background-color: #fff;
-    border:1px solid #000000;
+    border:1px solid #888888;
     
     padding: 5px 20px;
     border-radius: 3px;
@@ -122,6 +156,14 @@ input#inputbox{
     display: inline-block;
     width:100%;
     margin-bottom:10px;
+  }
+  .exCard
+  {
+    max-height:30px !important;
+    background-color:#ffffff !important;
+
+    background: url(assets/excard2.png)no-repeat;
+    background-position: center; 
   }
    
 }

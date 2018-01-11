@@ -1,0 +1,222 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
+.svgStyle
+{
+  position:relative;
+  color:#ffffff;
+  top:20px;
+  border-radius:0px !important;
+}
+.snip1423 { 
+  position: relative;
+  margin: 20px 1%;
+  margin-left:auto;
+  margin-right:auto;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  background: #ffffff;
+  text-align: center;
+  color: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  border-radius:25px;
+}
+.snip1423 * {
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  
+}
+.snip1423 img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+}
+.snip1423 figcaption {
+  padding: 20px 15px;
+
+}
+.snip1423 h3,
+.snip1423 p {
+  margin: 0;
+
+}
+.snip1423 h3 {
+  font-size: 2em;
+  font-weight: 400;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color:#435E75;
+}
+.snip1423 p {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+.snip1423 .price {
+  font-weight: 500;
+  font-size:28px;
+  line-height: 48px;
+  letter-spacing: 1px;
+}
+.snip1423 .price s {
+  margin-right: 5px;
+  opacity: 0.5;
+  font-size: 0.9em;
+}
+.snip1423 i {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+  width: 56px;
+  line-height: 56px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #666666;
+  color: #ffffff;
+  font-size: 1.6em;
+  border: 4px solid #ffffff;
+}
+.snip1423 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  opacity:0;
+  font-size:18px;
+}
+.snip1423:hover,
+.snip1423.hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+.snip1423:hover i,
+.snip1423.hover i {
+  background-color: #F8AD1F;
+  
+}
+
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1566 {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  max-width: 190px;
+  max-height:190px;
+  width: 100%;
+  color: #F8AD1F;
+  font-size: 16px;
+  box-shadow: none !important;
+  -webkit-transform: translateZ(10);
+  transform: translateZ(10);
+}
+
+.snip1566 *,
+.snip1566:before,
+.snip1566:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.snip1566:before,
+.snip1566:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 50%;
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+  border: 2px solid #435E75;
+  border-color: #F8AD1F;
+}
+
+.snip1566 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.snip1566 figcaption {
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  opacity: 0;
+  background-color: rgba(44, 49, 68, .8);
+  border-radius: 50%;
+}
+
+.snip1566 i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  z-index: 1;
+}
+
+.snip1566 a {
+  position: absolute;
+  top: 140px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  opacity:0;
+  color:#F8AD1F;
+  font-size:16px;
+}
+.snip1566 a:hover {
+  -moz-transform: translate(0px, -4px);
+  -ms-transform: translate(0px, -4px);
+  -o-transform: translate(0px, -4px);
+  -webkit-transform: translate(0px, -4px);
+  transform: translate(0px, -4px);
+  opacity:1;
+}
+.snip1566:hover figcaption,
+.snip1566.hover figcaption {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.snip1566:hover:before,
+.snip1566.hover:before,
+.snip1566:hover:after,
+.snip1566.hover:after {
+  border-width: 10px;
+}
+
+.snip1566:hover:before,
+.snip1566.hover:before {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.snip1566:hover:after,
+.snip1566.hover:after {
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
